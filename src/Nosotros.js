@@ -8,8 +8,8 @@ const autores = [
     emoji: "🌍",
   },
   {
-    nombre: "Paul Michel Josue",
-    rol: "Diseñador UX/UI",
+    nombre: "Paul Michel",
+    rol: "Desarrollador Full Stack/Diseñador UX/UI",
     emoji: "🌿",
   },
   {
