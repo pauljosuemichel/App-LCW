@@ -1,0 +1,102 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Lucida Bright  ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #00743F;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Typography */
+h1, h2, h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+/* Links */
+a {
+  color: #505356;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #484f56;
+}
+
+/* Form */
+.form-container {
+  background-color: #00743F;
+  border: 1px solid #00743F;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #00743F;
+  border-radius: 3px;
+}
+
+.solar {
+  padding: 10px 20px;
+  background-color: #FFD700;
+  color: #000000;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.eolico {
+  padding: 10px 20px;
+  background-color: #00ff6a;
+  color: #000000;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hydroelectrica {
+  padding: 10px 20px;
+  background-color: #0291ff;
+  color: #000000;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.geotermico {
+  padding: 10px 20px;
+  background-color: #ff8102;
+  color: #000000;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}

@@ -1,0 +1,50 @@
+/* inversion.css */
+.investment-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f7f6; /* Color de fondo más natural */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .investment-form {
+    margin-top: 20px;
+  }
+  
+  .investment-form label {
+    font-size: 18px;
+    color: #468c83; /* Color de texto más ecológico */
+    margin-bottom: 10px;
+  }
+  
+  .investment-form input,
+  .investment-form select { /* Aplica el estilo a las listas desplegables también */
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #9bb5b0; /* Borde más suave */
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .investment-form button {
+    background-color: #2a9d8f; /* Color de botón más ecológico */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .investment-form button:hover {
+    background-color: #20746f; /* Color más oscuro al hacer hover */
+  }
+  
+  .result-message {
+    font-size: 18px;
+    color: #333;
+    margin-top: 15px;
+  }
+  

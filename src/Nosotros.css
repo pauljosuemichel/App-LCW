@@ -1,0 +1,65 @@
+.nosotros-container {
+    background-color: #6dc28a;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: "Lucida Bright", sans-serif;
+    color: #fff;
+  }
+  
+  .imagen {
+    max-width: 80%;
+    height: auto;
+  }
+
+  .nosotros-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .descripcion {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .autores-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .autor-item {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .titulo {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .mision-title,
+  .unete-title {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .mision-text,
+  .unete-text {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .unete-link {
+    color: #f0f7f6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .unete-link:hover {
+    text-decoration: underline;
+    color: #d4ebe8;
+  }
+  
