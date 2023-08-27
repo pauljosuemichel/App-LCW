@@ -8,7 +8,7 @@ function Hydro() {
         <div className="hydro-container">
             <header className="hydro-header">
                 <h1>💧 Energía Hidroeléctrica 🌊</h1>
-            </header>
+            </header><br></br>
             <main className="hydro-content">
                 <img
                     src={HydroImage}
